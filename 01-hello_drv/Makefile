@@ -19,4 +19,4 @@ kernel_modules:
 	make -C $(KDIR) M=$(PWD) modules
 #清除中间文件（以.o为后缀的文件，也可以清除其它的，只需要.ko为后缀的文件即可）
 clean:
-	rm -rf *.o *.mod *.order *.symvers *.mod.c *.ko
+	rm -rf .* *.o *.mod *.order *.symvers *.mod.c *.ko
